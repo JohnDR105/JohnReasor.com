@@ -1,0 +1,18 @@
+﻿body {
+    background-color: #73919B;
+}
+.top-bar, .top-bar ul {
+    background-color: #558C9F;
+}
+.title-bar {
+    background: #558C9F;
+    color: #000000;
+    padding: .5rem;
+}
+.menu>li>a {
+    color: black;
+}
+.orbit-container {
+    min-height: 450px;
+    height:100%;
+}
