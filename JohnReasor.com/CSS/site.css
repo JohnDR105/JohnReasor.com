@@ -1,5 +1,20 @@
-﻿body {
+﻿html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
     background-color: #D7CEC7;
+    min-height: 100%;
+    width: 100%;
+}
+
+.content {
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
 }
 
 .top-bar, .top-bar ul {
@@ -18,11 +33,6 @@
     color: black;
 }
 
-.orbit-container {
-    min-height: 450px;
-    height: 100%;
-}
-
 .callout.primary {
     background-color: #706C69;
     color: black;
@@ -31,10 +41,51 @@
 footer {
     background-color: #565656;
     color: black;
-    height: 54px;
-    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px, 10px, 10px, 5px;
 }
 
-h3, h4{
+h3 {
     color: black;
+}
+
+h4 {
+    color: black;
+}
+
+@media screen and (min-width: 480px) {
+    h3 {
+        min-height: 85px;
+    }
+}
+
+.valign-middle {
+    display: table;
+}
+
+    .valign-middle .columns {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .valign-middle .columns,
+    .valign-middle [class*="column"] + [class*="column"]:last-child {
+        float: none;
+    }
+
+.contact {
+    min-height: 51em;
+}
+
+#wrap {
+    min-height: 100%;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -100px;
+    /* Pad bottom by footer height */
+    padding: 0 0 100px;
 }

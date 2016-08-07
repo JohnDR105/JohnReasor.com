@@ -89,20 +89,82 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\controller\jnsController.js" />
+    <Content Include="app\directive\jnsFooterDirective.js" />
+    <Content Include="app\directive\jnsHeaderDirective.js" />
     <Content Include="app\jnsApp.js" />
     <Content Include="app\service\jnsDataService.js" />
+    <Content Include="bin\JohnReasor.com.dll" />
+    <Content Include="bin\JohnReasor.com.pdb" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\csi.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="bin\roslyn\System.AppContext.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Helpers.xml" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Mvc.xml" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.Razor.xml" />
+    <Content Include="bin\System.Web.Webpages.Deployment.dll" />
+    <Content Include="bin\System.Web.Webpages.Deployment.xml" />
+    <Content Include="bin\System.Web.Webpages.dll" />
+    <Content Include="bin\System.Web.Webpages.Razor.dll" />
+    <Content Include="bin\System.Web.Webpages.Razor.xml" />
+    <Content Include="bin\System.Web.Webpages.xml" />
+    <Content Include="Content\dx.android5.light.css" />
+    <Content Include="Content\dx.common.css" />
+    <Content Include="Content\dx.contrast.compact.css" />
+    <Content Include="Content\dx.contrast.css" />
+    <Content Include="Content\dx.dark.compact.css" />
+    <Content Include="Content\dx.dark.css" />
+    <Content Include="Content\dx.ios7.default.css" />
+    <Content Include="Content\dx.light.compact.css" />
+    <Content Include="Content\dx.light.css" />
+    <Content Include="Content\dx.spa.css" />
+    <Content Include="Content\dx.win10.black.css" />
+    <Content Include="Content\dx.win10.white.css" />
+    <Content Include="Content\dx.win8.black.css" />
+    <Content Include="Content\dx.win8.white.css" />
+    <Content Include="Content\layouts\Desktop\DesktopLayout.css" />
+    <Content Include="Content\layouts\Desktop\DesktopLayout.html" />
+    <Content Include="Content\layouts\Desktop\DesktopLayout.js" />
+    <Content Include="Content\layouts\Empty\EmptyLayout.css" />
+    <Content Include="Content\layouts\Empty\EmptyLayout.html" />
+    <Content Include="Content\layouts\Empty\EmptyLayout.js" />
+    <Content Include="Content\layouts\Popup\PopupLayout.css" />
+    <Content Include="Content\layouts\Popup\PopupLayout.html" />
+    <Content Include="Content\layouts\Popup\PopupLayout.js" />
     <Content Include="Content\Slick\ajax-loader.gif" />
     <Content Include="Content\Slick\fonts\slick.svg" />
     <Content Include="Content\Slick\slick-theme.css" />
     <Content Include="Content\Slick\slick.css" />
     <Content Include="css\normalize.css" />
-    <Content Include="css\foundation.css" />
-    <Content Include="css\foundation.min.css" />
     <Content Include="css\site.css" />
+    <Content Include="favicon.ico" />
     <Content Include="images\placeimg_1200_450_tech %281%29.jpg" />
     <Content Include="images\placeimg_1200_450_tech %282%29.jpg" />
     <Content Include="images\placeimg_1200_450_tech %283%29.jpg" />
@@ -111,22 +173,28 @@
     <Content Include="images\placeimg_450_150_tech %282%29.jpg" />
     <Content Include="images\placeimg_450_150_tech %283%29.jpg" />
     <Content Include="images\placeimg_450_150_tech.jpg" />
+    <Content Include="images\placeimg_480_150_sepia_tech %281%29.jpg" />
+    <Content Include="images\placeimg_480_150_sepia_tech.jpg" />
     <Content Include="images\placeimg_480_150_tech %281%29.jpg" />
     <Content Include="images\placeimg_480_150_tech %282%29.jpg" />
     <Content Include="images\placeimg_480_150_tech %283%29.jpg" />
     <Content Include="images\placeimg_480_150_tech.jpg" />
     <Content Include="images\placeimg_700_250_sepia_tech %281%29.jpg" />
     <Content Include="images\placeimg_700_250_sepia_tech.jpg" />
+    <Content Include="images\placeimg_760_238_sepia_tech %281%29.jpg" />
+    <Content Include="images\placeimg_760_238_sepia_tech.jpg" />
     <Content Include="images\placeimg_760_238_tech %281%29.jpg" />
     <Content Include="images\placeimg_760_238_tech %282%29.jpg" />
     <Content Include="images\placeimg_760_238_tech %283%29.jpg" />
     <Content Include="images\placeimg_760_238_tech.jpg" />
     <Content Include="index.html" />
-    <Content Include="js\vendor\foundation.js" />
-    <Content Include="js\vendor\foundation.min.js" />
-    <Content Include="js\vendor\jquery.js" />
-    <Content Include="js\vendor\what-input.js" />
-    <Content Include="packages.config" />
+    <Content Include="js\jquery.fittext.js" />
+    <Content Include="js\stickyfooter.js" />
+    <Content Include="obj\Debug\JohnReasor.com.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\JohnReasor.com.dll" />
+    <Content Include="obj\Debug\JohnReasor.com.pdb" />
+    <Content Include="css\foundation.css" />
+    <Content Include="css\foundation.min.css" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -154,6 +222,19 @@
     <Content Include="Scripts\angular-touch.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\cldr.js" />
+    <Content Include="Scripts\cldr\event.js" />
+    <Content Include="Scripts\cldr\supplemental.js" />
+    <Content Include="Scripts\cldr\unresolved.js" />
+    <Content Include="Scripts\devextreme-localization\dx.web.de.js" />
+    <Content Include="Scripts\devextreme-localization\dx.web.ja.js" />
+    <Content Include="Scripts\devextreme-localization\dx.web.ru.js" />
+    <Content Include="Scripts\dx.viz-web.debug.js" />
+    <Content Include="Scripts\dx.viz-web.js" />
+    <Content Include="Scripts\dx.viz.debug.js" />
+    <Content Include="Scripts\dx.viz.js" />
+    <Content Include="Scripts\dx.web.debug.js" />
+    <Content Include="Scripts\dx.web.js" />
     <Content Include="Scripts\foundation\fastclick.js" />
     <Content Include="Scripts\foundation\foundation.abide.js" />
     <Content Include="Scripts\foundation\foundation.accordion.js" />
@@ -173,6 +254,14 @@
     <Content Include="Scripts\foundation\foundation.tooltip.js" />
     <Content Include="Scripts\foundation\foundation.topbar.js" />
     <Content Include="Scripts\foundation\jquery.cookie.js" />
+    <Content Include="Scripts\globalize.js" />
+    <Content Include="Scripts\globalize\currency.js" />
+    <Content Include="Scripts\globalize\date.js" />
+    <Content Include="Scripts\globalize\message.js" />
+    <Content Include="Scripts\globalize\number.js" />
+    <Content Include="Scripts\globalize\plural.js" />
+    <Content Include="Scripts\globalize\relative-time.js" />
+    <Content Include="Scripts\globalize\unit.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-et.js" />
@@ -917,77 +1006,93 @@
     <Content Include="Scripts\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
-    <Content Include="Content\Slick\slick.scss" />
-    <Content Include="Content\Slick\slick-theme.scss" />
-    <Content Include="Content\Slick\fonts\slick.woff" />
-    <Content Include="Content\Slick\fonts\slick.ttf" />
-    <Content Include="Content\Slick\fonts\slick.eot" />
+    <Content Include="packages.config" />
+    <Content Include="Content\icons\dxiconsios.woff" />
+    <Content Include="Content\icons\dxiconsios.ttf" />
+    <Content Include="Content\icons\dxiconsios.eot" />
+    <Content Include="Content\icons\dxicons.woff" />
+    <Content Include="Content\icons\dxicons.ttf" />
+    <Content Include="Content\icons\dxicons.eot" />
+    <None Include="Scripts\jquery-1.11.3.intellisense.js" />
+    <Content Include="Scripts\jquery-1.11.3.js" />
+    <Content Include="Scripts\jquery-1.11.3.min.js" />
+    <Content Include="Scripts\jquery-1.11.3.min.map" />
+    <None Include="Scripts\jquery-1.7-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.7.js" />
+    <Content Include="Scripts\jquery-1.7.min.js" />
     <None Include="Scripts\jquery-3.0.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.js" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
+    <Content Include="Scripts\jszip.js" />
+    <Content Include="Scripts\jszip.min.js" />
     <Content Include="Scripts\Slick\slick.js" />
     <Content Include="Scripts\Slick\slick.min.js" />
+    <Content Include="Scripts\vectormap-data\africa.js" />
+    <Content Include="Scripts\vectormap-data\canada.js" />
+    <Content Include="Scripts\vectormap-data\eurasia.js" />
+    <Content Include="Scripts\vectormap-data\europe.js" />
+    <Content Include="Scripts\vectormap-data\usa.js" />
+    <Content Include="Scripts\vectormap-data\world.js" />
+    <Content Include="Scripts\vectormap-utils\dx.vectormaputils.debug.js" />
+    <Content Include="Scripts\vectormap-utils\dx.vectormaputils.js" />
+    <Content Include="Scripts\vectormap-utils\dx.vectormaputils.node.js" />
+    <Content Include="twitter_profile.png" />
     <Content Include="Views\contact.html" />
+    <Content Include="Views\footer.html" />
+    <Content Include="Views\header.html" />
     <Content Include="Views\home.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\version.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\errors.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-touch.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-sanitize.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-route.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-resource.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-parse-ext.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-messages.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-message-format.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-loader.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-cookies.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-aria.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Scripts\angular-animate.min.js.map" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="web.config" />
-    <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
+    <Content Include="Scripts\angular-animate.min.js.map" />
+    <Content Include="Scripts\angular-aria.min.js.map" />
+    <Content Include="Scripts\angular-cookies.min.js.map" />
+    <Content Include="Scripts\angular-loader.min.js.map" />
+    <Content Include="Scripts\angular-message-format.min.js.map" />
+    <Content Include="Scripts\angular-messages.min.js.map" />
+    <Content Include="Scripts\angular-parse-ext.min.js.map" />
+    <Content Include="Scripts\angular-resource.min.js.map" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <Content Include="Scripts\angular-touch.min.js.map" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
+    <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
+    <Content Include="Scripts\version.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\JohnReasor.com.dll.config" />
+    <Content Include="bin\roslyn\csc.exe.config" />
+    <Content Include="bin\roslyn\csc.rsp" />
+    <Content Include="bin\roslyn\csi.rsp" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\vbc.exe.config" />
+    <Content Include="bin\roslyn\vbc.rsp" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Slick\fonts\slick.eot" />
+    <Content Include="Content\Slick\fonts\slick.ttf" />
+    <Content Include="Content\Slick\fonts\slick.woff" />
+    <Content Include="Content\Slick\slick-theme.scss" />
+    <Content Include="Content\Slick\slick.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\JohnReasor.com.csprojResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\model\" />
+    <Folder Include="app\view\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

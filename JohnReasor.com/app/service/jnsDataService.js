@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app')
+        .module('jnsApp')
         .service('jnsDataService', jnsDataService);
 
     jnsDataService.$inject = ['$http'];
